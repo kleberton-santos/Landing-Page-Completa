@@ -1,0 +1,300 @@
+@font-face {
+    font-family: "Ringbearer";
+    src: url("fonts/RINGM___.ttf") format("truetype");
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(215, 75, 75, 0.5), rgba(39, 36, 36, 0.5)), 
+                      url('https://pandona.wordpress.com/wp-content/uploads/2017/11/o-senhor-dos-anc3a9is-1.jpg?w=1200&h=720&crop=1');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin: 0 80px;
+    padding: 10px 15px;
+    font-family: "Ringbearer", sans-serif;  
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    color: azure;
+    font-family: "Ringbearer", sans-serif;  
+    flex-wrap: wrap;
+}
+
+.cabecalho h1 {
+    display: flex;
+    padding: 54px;
+    margin-left: 12%;
+}
+
+.cabecalho img {
+    height: 200px;
+    opacity: 0.3;
+    border-radius: 90%;
+}
+
+.carousel-center {
+    display: flex;
+}
+
+.custom-img {
+    width: 36%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    filter: invert(1);
+    padding: 1px;
+}
+
+.sobre {
+    margin: 30px;
+}
+
+.sobre h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Ringbearer", sans-serif; 
+    color: white;
+    padding: 10px;
+}
+
+.content-sobre {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    padding: 50px;
+}
+
+.servicos h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Ringbearer", sans-serif; 
+    color: white;
+    margin-bottom: 4%;
+}
+
+.content-servicos {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.servicos .card {
+    width: 20rem;
+}
+
+.servicos .card-body {
+    padding: 10px;
+    height: auto;
+}
+
+.servicos .card-text {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    padding: 5px;
+}
+
+.testemunhos {
+    margin: 30px;
+}
+
+.testemunhos h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Ringbearer", sans-serif; 
+    color: white;
+    margin: 50px;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.social-icon {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #FFD700;
+}
+
+.contato {
+    margin: 30px;
+}
+
+.contato h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Ringbearer", sans-serif; 
+    color: white;
+    margin-bottom: 4%;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.formulario {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.social-icons a {
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+.social-icon i {
+    transition: color 0.3s;
+}
+
+.social-icon:hover i {
+    color: #007bff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        margin: 0 20px;
+        font-size: 16px;
+    }
+
+    .cabecalho h1 {
+        margin-left: 5%;
+    }
+
+    .content-servicos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicos .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .carousel-center {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cabecalho img {
+        height: 150px;
+    }
+
+    .formulario {
+        padding: 15px;
+    }
+
+    .form-control {
+        padding: 6px;
+    }
+
+    .btn-primary {
+        padding: 8px;
+    }
+}
