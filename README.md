@@ -16,7 +16,7 @@ A Landing Page é composta por HTML para a estrutura, CSS para o estilo e Java S
 
 ## Acesse o projeto online diretamente pelo link
 
-[Link para a Landing Page - Lord Of The Ring](https://kleberton-santos.github.io/Landing-Page-Basic/)
+https://kleberton-santos.github.io/Landing-Page-Completa/
 
 ## Clonando o Repositório
 
