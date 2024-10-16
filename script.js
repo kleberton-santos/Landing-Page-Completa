@@ -8,7 +8,7 @@ $(document).ready(function() {
       url: `https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}`,
       method: 'GET',
       success: function(data) {
-        console.log(`Dados recebidos para ISBN: ${isbn}`, data); 
+        
         if (data.items && data.items.length > 0) {
           const bookData = data.items[0].volumeInfo;
 
