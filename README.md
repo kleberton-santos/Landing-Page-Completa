@@ -14,10 +14,6 @@ Este repositório contém uma Landing Page interativa e dinâmica sobre o univer
 
 A Landing Page é composta por HTML para a estrutura, CSS para o estilo e Java Script para deixar dinamico. Foram utilizados componentes e recursos adicionais de Bootstrap e Font Awesome para melhorar a aparência e a usabilidade do site, alem de APIS externas.
 
-## Acesse o projeto online diretamente pelo link
-
-https://kleberton-santos.github.io/Landing-Page-Completa/
-
 ## Clonando o Repositório
 
 Para clonar o repositório para sua máquina local, utilize o seguinte comando:
